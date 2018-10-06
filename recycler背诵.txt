@@ -1,0 +1,4 @@
+RecyclerView的优势?
+1、Recyclerview封装了viewHolder的回收复用，也就是Recyclerview标准化了ViewHolder，编写Adapter的时候面向的是ViewHolder而不是view，复用的逻辑被封装了，写起来更简单
+2、提供了一种插拔式的体验，高度解耦，异常灵活，针对每一个item，RecyclerView专门抽取出了相应的类，来控制item的显示，使其扩展性非常强。
+3、可以控制item增删的动画，可以通过itemAnimator这个类进行控制，当然针对增删的动画RecyclerView有其自己默认的实现。
